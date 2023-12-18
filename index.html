@@ -42,9 +42,10 @@
 		<imagetarget id='bear' src='targets/bear.png'></imagetarget>
 		<imagetarget id='Skull-AR' src='targets/Skull-AR.png'></imagetarget>
 		<imagetarget id='Heart-AR' src='targets/Heart-AR.jpeg'></imagetarget>
+		<imagetarget id='manScan' src='targets/asset (1).png'></imagetarget>
 
     <video id="webcam-video" muted autoplay playsinline style="width:1px;position:absolute"></video>
-    <div id="startARDiv" class="ctaDiv" style="background: transparent; color: white;">
+    <div id="startARDiv" class="ctaDiv">
         <select id="chooseCamSel" style="display: none; padding: 10px 20px; border-radius: 10px; background: #FFC436;" onchange="SelectCam()"></select>
         <p style="text-align: center; width:60vw;">This augmented reality experience requires access to your device's camera</p>
         <button id="startARButton" onclick="StartAR()" style="display:none; font-weight: bold; background: #FFC436; border-radius: 10px; padding: 15px 30px;">ALLOW ACCESS</button>
@@ -83,7 +84,7 @@
         });;
         
     </script>
-    <script src="Build/kbe4.loader.js"></script>
+    <script src="Build/kbe5.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
